@@ -1,0 +1,29 @@
+# 1. Create an empty tuple
+empty_tuple = ()
+
+# 2. Create a tuple containing names of sisters and brothers
+sisters = ("Emma", "Sophia")
+brothers = ("Liam", "Noah")
+
+# Join brothers and sisters tuples and assign it to siblings
+siblings = sisters + brothers
+
+# How many siblings do you have?
+num_siblings = len(siblings)
+print("Number of siblings:", num_siblings)
+
+# Modify the siblings tuple and add the name of your father and mother
+family_members = siblings + ("Father", "Mother")
+
+# Unpack siblings and parents from family_members
+sisters, brothers, father, mother = family_members[:2], family_members[2:4], family_members[4], family_members[5]
+
+# Create fruits, vegetables, and animal products tuples
+fruits = ("apple", "banana", "orange")
+vegetables = ("carrot", "lettuce", "tomato")
+animal_products = ("meat", "milk", "egg")
+
+# Join the three tuples and assign it to a variable called food_stuff_tp
+food_stuff_tp = fruits + vegetables + animal_products
+
+# Change the food_stuff_tp⬤
